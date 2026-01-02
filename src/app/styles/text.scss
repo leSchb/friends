@@ -1,0 +1,26 @@
+$font-family: var(--nunito-font);
+$second-family: var(--openSans-font);
+$third-family: var(--inter-font);
+
+.second-family {
+  font-family: $second-family;
+}
+
+.third-family {
+  font-family: $third-family;
+}
+
+.nowrap-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.underline-front,
+.underline {
+  text-decoration: underline solid;
+}
